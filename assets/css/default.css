@@ -57,6 +57,16 @@ a,
   position: relative;
   top: -5px;
 }
+.bioSub-title:after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 300px;
+  background-color: #8a1f53;
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+}
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -275,10 +285,14 @@ header .brand h1 {
   }
 }
 .section-parents .container {
-  max-width: 800px;
+  max-width: 2000px;
+  text-align: center;
+
+
 }
 .parents {
   font-weight: 600;
+
 }
 .parents .title {
   text-transform: uppercase;
@@ -289,6 +303,7 @@ header .brand h1 {
   padding-top: 15px;
   padding-bottom: 10px;
   margin-top: 5px;
+
 }
 /* media queries */
 @media only screen and (max-width: 768px) {
