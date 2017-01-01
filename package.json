@@ -1,0 +1,33 @@
+{
+  "name": "pretty-powerful",
+  "version": "1.0.0",
+  "description": "Website for young minister",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemailer": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharnee/prettyPowerful.git"
+  },
+  "keywords": [
+    "pretty",
+    "powerful"
+  ],
+  "author": "Sharnee Francis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharnee/prettyPowerful/issues"
+  },
+  "homepage": "https://github.com/sharnee/prettyPowerful#readme"
+}
